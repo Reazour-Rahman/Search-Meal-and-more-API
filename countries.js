@@ -1,4 +1,4 @@
-const getCountries = () => {
+/* const getCountries = () => {
     fetch('https://restcountries.eu/rest/v2/all')
     .then(res => res.json())
     .then(data=> loadCountries(data))
@@ -29,5 +29,8 @@ const loadCountryDetails = country =>{
         <h2>Country : ${country.name}</h2>
         <h6>Population : ${country.population}</h6>
         <img width="300px" src="${country.flag}">
-    `
-}
+    `;
+    
+} */
+const bondCode=` I am Fake James bond . My new code is: 00${7+1+2}`
+console.log(bondCode)
